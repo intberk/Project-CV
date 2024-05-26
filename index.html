@@ -6,11 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Portfolio Website HTML CSS and JS</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="wrapper">
         <div class="cover cover-left"></div>
         <div class="cover cover-right turn"></div>
+        <div class="book">
+            <!-- profil page -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="image1.png" alt="">
+                    <h1>Bartu Berkmen</h1>
+                    <h3>Web Developer</h3>
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>                       
+                    </div>
+
+                    <p>Hi, I'm Bartu Berkmen, a web Developer. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum autem ducimus in ipsa aspernatur quo quasi, ex, laudantium eius soluta dolorum aperiam dolore. Molestias quibusdam quia laudantium laborum velit voluptatem?   
+                    </p>
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- page 1 and 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (work experience)  -->
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2020-2021</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A velit ipsa, dicta magni ullam eos iste non tempore possimus ipsum soluta dolorum, assumenda voluptatibus nobis.</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2021-2022</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A velit ipsa, dicta magni ullam eos iste non tempore possimus ipsum soluta dolorum, assumenda voluptatibus nobis.</p>                           
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2022-2023</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A velit ipsa, dicta magni ullam eos iste non tempore possimus ipsum soluta dolorum, assumenda voluptatibus nobis.</p>                         
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right' ></i>
+                    </span>
+
+                </div>
+                <!-- page 2 (education) -->
+                <div class="page-back">
+                    <h1 class="title">Educaiton</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2017-2018</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A velit ipsa, dicta magni ullam eos iste non tempore possimus ipsum soluta dolorum, assumenda voluptatibus nobis.</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2018-2019</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A velit ipsa, dicta magni ullam eos iste non tempore possimus ipsum soluta dolorum, assumenda voluptatibus nobis.</p>                           
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar' ></i>2019-2020</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A velit ipsa, dicta magni ullam eos iste non tempore possimus ipsum soluta dolorum, assumenda voluptatibus nobis.</p>                         
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left' ></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- page 3 and 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (my services) -->
+                <div class="page-front">
+                    <h1 class="title">My Services</h1>
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class='bx bx-code-alt' ></i>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                        <div class="services-content">
+                            <i class='bx bxs-paint' ></i>
+                            <h3>Creative Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                        <div class="services-content">
+                            <i class='bx bx-bar-chart-alt' ></i>
+                            <h3>Digital Marketing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                        <div class="services-content">
+                            <i class='bx bx-search' ></i>
+                            <h3>SEO</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <span class="number-page">3</span>
+
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right' ></i>
+                    </span>
+                </div>
+                <!-- page 4 (my skills) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+                </div>
+            </div>
+        </div>
     </div>
     
     <script src="script.js"></script>
