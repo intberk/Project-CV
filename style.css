@@ -281,7 +281,7 @@ body{
     color: var(--main-color);
 }
 
-.services-content h3{
+.services-content h3 {
     font-size: 1.1rem;
 }
 
@@ -294,13 +294,13 @@ body{
     height: 2.5rem;
 }
 
-.skills-box{
+.skills-box {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.skills-box .skills-content{
+.skills-box .skills-content {
     flex: 1 1 20rem;
 }
 
@@ -310,7 +310,7 @@ body{
     margin-bottom: .6rem;
 }
 
-.skills-content .content{
+.skills-content .content {
     display: flex;
     flex-wrap: wrap;
     gap: .8rem;
@@ -329,7 +329,7 @@ body{
     transition: .3s ease;
 }
 
-.skills-content .content span:hover{
+.skills-content .content span:hover {
     box-shadow: var(--box-shadow);
 }
 
@@ -337,3 +337,128 @@ body{
     font-size: 3rem;
     color: var(--main-color);
 }
+
+.portfolio-box .img-box {
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    border: var(--border);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.portfolio-box .img-box img {
+    width: 100%;
+    object-fit: cover;
+    transition: .5s ease;
+}
+
+.portfolio-box .img-box:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-box .info-box {
+    margin: 1rem 0 1.5rem;
+}
+
+.portfolio-box .info-box .info-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.portfolio-box .info-box .info-title h3 {
+    font-size: 1.3rem;
+}
+
+.portfolio-box .info-box .info-title a {
+    display: flex;
+    align-items: center;
+    color: var(--main-color);
+}
+
+.portfolio-box .info-box .info-title a i {
+    margin-left: .3rem;
+}
+
+.portfolio-box .info-box p:nth-of-type(1) {
+    font-weight: 600;
+}
+
+.portfolio-box .btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-box .btn-box .btn {
+    margin: 0 1.15rem;
+}
+
+.contact-box {
+    text-align: center;
+}
+
+.contact-box .field {
+    width: 100%;
+    background: transparent;
+    border: var(--border);
+    border-radius: .3rem;
+    padding: .8rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.contact-box .field::placeholder {
+    color: var(--text-color);
+}
+
+.contact-box textarea {
+    resize: none;
+    height: 15rem;
+}
+
+.contact-box .btn{
+    cursor: pointer;
+}
+
+.back-profile {
+    position: absolute;
+    bottom: 1.2rem;
+    right: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: var(--border);
+    border-radius: .3rem;
+    font-size: 1.1rem;
+    color: var(--main-color);
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    transition: .5s;
+}
+
+.back-profile:hover {
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+.back-profile p {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(.5);
+    font-size: 1rem;
+    color: var(--main-color);
+    opacity: 0;
+    transition: .5s;
+}
+
+.back-profile:hover p {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+    top: -1.8rem;
+}
+
